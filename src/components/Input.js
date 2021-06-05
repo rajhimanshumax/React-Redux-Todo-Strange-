@@ -7,7 +7,7 @@ const Input = () => {
   const [input, setInput] = useState("");
   const dispatch = useDispatch(); 
   const addTodo=()=>{
-    console.log(`Adding ${input}`);
+   // console.log(`Adding ${input}`);
     dispatch(saveTodo({
       item:input,
       done:false,
