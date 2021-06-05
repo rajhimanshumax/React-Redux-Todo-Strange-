@@ -1,0 +1,15 @@
+.output {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: aliceblue;
+  margin: 6px 4px;
+  height: 50px;
+  border-radius: 12px;
+}
+.output > p {
+  flex: 1;
+}
+.output--done {
+  text-decoration: line-through;
+}
